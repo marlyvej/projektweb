@@ -1,0 +1,61 @@
+/* ==================== COMPONENTS - Formuláře ==================== */
+.form-group {
+  margin-bottom: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: var(--space-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-neutral-base);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+.form-group.checkbox {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.form-group.checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}
+
+.contact-form button {
+  margin-right: var(--space-sm);
+  margin-top: var(--space-sm);
+}
+
+.message-container {
+  background-color: #e8f5e9;
+  border: 2px solid var(--color-success);
+  color: #2e7d32;
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  margin-top: var(--space-xl);
+  text-align: center;
+  font-weight: var(--font-weight-medium);
+}

@@ -1,0 +1,41 @@
+/* ==================== COMPONENTS - Tabulky ==================== */
+.products-table,
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-neutral-white);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  margin: var(--space-xl) 0;
+}
+
+.products-table thead,
+.comparison-table thead {
+  background-color: var(--color-primary);
+  color: var(--color-neutral-white);
+}
+
+.products-table th,
+.comparison-table th {
+  padding: var(--space-md);
+  text-align: left;
+  font-weight: var(--font-weight-semibold);
+  border: 1px solid #ddd;
+}
+
+.products-table td,
+.comparison-table td {
+  padding: var(--space-md);
+  border: 1px solid #ddd;
+}
+
+.products-table tbody tr:nth-child(even),
+.comparison-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.products-table tbody tr:hover,
+.comparison-table tbody tr:hover {
+  background-color: #f0f0f0;
+}

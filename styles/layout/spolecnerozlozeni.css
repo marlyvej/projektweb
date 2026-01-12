@@ -1,0 +1,27 @@
+/* ==================== LAYOUT - Main Content ==================== */
+.main-content {
+  max-width: var(--container-width);
+  margin: var(--space-xl) auto;
+  padding: 0 var(--space-md);
+  min-height: calc(100vh - 300px);
+}
+/* ==================== LAYOUT - Grid Komponenty ==================== */
+.products-grid,
+.gallery-grid,
+.features-grid {
+  display: grid;
+  gap: var(--space-xl);
+  margin: var(--space-xl) 0;
+}
+
+.products-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.gallery-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.features-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}

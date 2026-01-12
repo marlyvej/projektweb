@@ -1,0 +1,32 @@
+/* ==================== COMPONENTS - Info Box ==================== */
+.info-box {
+  background-color: #fef3c7;
+  border: 2px solid var(--color-warning);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+}
+
+.info-box h3 {
+  color: #92400e;
+  margin-top: 0;
+}
+
+.info-box p {
+  color: #78350f;
+}
+
+.disclaimer {
+  background-color: #fed7aa;
+  border-left: 5px solid #d97706;
+  padding: var(--space-xl);
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  font-weight: var(--font-weight-semibold);
+  color: #7c2d12;
+}
+
+.disclaimer h2 {
+  color: #7c2d12;
+  margin-top: 0;
+}

@@ -1,0 +1,28 @@
+/* ==================== COMPONENTS - Gallery Item ==================== */
+.gallery-item {
+  background-color: var(--color-neutral-white);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.gallery-item:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-lg);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-item figcaption {
+  padding: var(--space-md);
+  color: var(--color-neutral-light);
+  font-size: var(--font-size-sm);
+  text-align: center;
+  background-color: #f9f9f9;
+}

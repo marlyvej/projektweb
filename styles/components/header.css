@@ -1,0 +1,30 @@
+/* ==================== COMPONENTS - Header ==================== */
+.header {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: var(--color-neutral-white);
+  padding: var(--space-lg) 0;
+  box-shadow: var(--shadow-md);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: calc(var(--space-2xl)*2.2);
+}
+
+.header-content {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.logo {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-xs);
+  letter-spacing: 1px;
+}
+
+.tagline {
+  font-size: var(--font-size-sm);
+  opacity: 0.95;
+  font-weight: var(--font-weight-regular);
+}
